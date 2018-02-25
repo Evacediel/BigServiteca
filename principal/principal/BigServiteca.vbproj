@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agregar y modifcar vehiculo.Designer.vb">
+      <DependentUpon>Agregar y modifcar vehiculo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar y modifcar vehiculo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="agregar y modificar cliente.Designer.vb">
       <DependentUpon>agregar y modificar cliente.vb</DependentUpon>
     </Compile>
@@ -102,6 +108,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Agregar y modifcar vehiculo.resx">
+      <DependentUpon>Agregar y modifcar vehiculo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="agregar y modificar cliente.resx">
       <DependentUpon>agregar y modificar cliente.vb</DependentUpon>
     </EmbeddedResource>
